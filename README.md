@@ -36,7 +36,7 @@ Uma API RESTful simples desenvolvida com **Node.js**, **Express** e **Prisma ORM
 
 2. **Instale as dependências**
   npm install
-  # ou
+  ou
   yarn install
 
 3. Configure o Banco de Dados
