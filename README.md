@@ -1,71 +1,74 @@
 # 📦 Prisma Express API
 
-Uma API RESTful simples desenvolvida com **Node.js**, **Express** e **Prisma ORM**. Este projeto tem como objetivo fornecer uma base sólida para desenvolvimento de backends modernos com banco de dados relacional utilizando **PostgreSQL**.
+Uma API RESTful simples desenvolvida com **Node.js**, **Express** e **Prisma ORM**.  
+Este projeto tem como objetivo fornecer uma base sólida para desenvolvimento de backends modernos com banco de dados relacional utilizando **PostgreSQL**.
 
-## ✨ Funcionalidades
+---
 
-- CRUD de Usuários
-- Middleware de autenticação com JWT (em breve)
-- Código estruturado e organizado com rotas modulares
+# ✨ Funcionalidades
 
-## 🚀 Tecnologias Utilizadas
+- ✅ CRUD de Usuários  
+- 🔐 Middleware de autenticação com JWT *(em breve)*  
+- 🧩 Código estruturado e organizado com rotas modulares  
 
-- **Node.js** — Ambiente de execução JavaScript
-- **Express** — Framework minimalista para Node.js
-- **TypeScript** — Tipagem estática para JS moderno
-- **Prisma ORM** — ORM moderno e eficiente
-- **PostgreSQL** — Banco de dados relacional
-- **JWT** — Autenticação segura via tokens (em breve)
-- **bcryptjs** — Criptografia de senhas (em breve)
+---
 
-## ⚙️ Como Rodar o Projeto
+# 🚀 Tecnologias Utilizadas
 
-### Pré-requisitos
+- **Node.js** — Ambiente de execução JavaScript  
+- **Express** — Framework minimalista para Node.js  
+- **TypeScript** — Tipagem estática para JS moderno  
+- **Prisma ORM** — ORM moderno e eficiente  
+- **PostgreSQL** — Banco de dados relacional  
+- **JWT** — Autenticação segura via tokens *(em breve)*  
+- **bcryptjs** — Criptografia de senhas *(em breve)*  
 
-- Node.js (versão 18+ recomendada)
-- PostgreSQL rodando localmente ou em um servidor
-- Yarn ou npm
+---
 
-### Passos
+# ⚙️ Como Rodar o Projeto
 
-1. **Clone o repositório**
+## ✅ Pré-requisitos
 
-- bash
-    git clone https://github.com/Arielson13/prisma-express-api.git
-    cd prisma-express-api
+- Node.js (**versão 18+ recomendada**)  
+- PostgreSQL rodando localmente ou em servidor  
+- Gerenciador de pacotes: **npm** ou **yarn**  
 
-2. **Instale as dependências**
-  npm install
-  ou
-  yarn install
+## 📥 Passos
 
-3. Configure o Banco de Dados
-   DATABASE_URL="postgresql://usuario:senha@localhost:5432/seu_banco"
-   
-4. Crie o banco e execute as migrações
-  npx prisma migrate dev --name init
+### Clone o repositório
+- git clone https://github.com/Arielson13/prisma-express-api.git
+- cd prisma-express-api
 
-5. npm run dev ou yarn dev
+### Instale as dependências
+- npm install / yarn install
 
-A API estará disponível em: http://localhost:3000
+## 🛠 Configure o Banco de Dados
+- DATABASE_URL="postgresql://usuario:senha@localhost:5432/seu_banco"
 
-🛠 Endpoints (Exemplo)
-Produtos
-GET /products — Lista todos os produtos
+## Execute as migrações do Prisma
+- npx prisma migrate dev --name init
 
-POST /products — Cria um novo produto
+## ▶️ Rode o servidor
+- npm run dev / yarn dev
 
-PUT /products/:id — Atualiza um produto existente
+## 📚 Endpoints (Exemplos)
+### 🛒 Produtos
+- GET /products — Lista todos os produtos
 
-DELETE /products/:id — Remove um produto
+- POST /products — Cria um novo produto
 
-Vendas
-GET /sales — Lista todas as vendas
+- PUT /products/:id — Atualiza um produto existente
 
-POST /sales — Registra uma nova venda
+- DELETE /products/:id — Remove um produto
 
-📌 Notas
-Autenticação com JWT será adicionada em breve.
+## 💰 Vendas
+- GET /sales — Lista todas as vendas
 
-Desenvolvido por Arielson Duarte
+- POST /sales — Registra uma nova venda
 
+## 📌 Notas
+- 🔒 A autenticação com JWT será adicionada em breve.
+
+## 👨‍💻 Desenvolvido por
+- Arielson Duarte
+- github.com/Arielson13
