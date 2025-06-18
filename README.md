@@ -20,26 +20,6 @@ Uma API RESTful simples desenvolvida com **Node.js**, **Express** e **Prisma ORM
 - **JWT** — Autenticação segura via tokens (em breve)
 - **bcryptjs** — Criptografia de senhas (em breve)
 
-## 📁 Estrutura do Projeto
-
-prisma-express-api/
-│
-├── prisma/
-│ └── schema.prisma # Definição do modelo de dados
-│
-├── src/
-│ ├── controllers/ # Lógica das rotas
-│ ├── middlewares/ # (em breve) Autenticação e outros
-│ ├── routes/ # Definição das rotas
-│ ├── utils/ # Funções auxiliares (se houver)
-│ └── server.ts # Ponto de entrada da aplicação
-│
-├── .env # Variáveis de ambiente (ex: DATABASE_URL)
-├── package.json # Dependências e scripts
-├── tsconfig.json # Configurações do TypeScript
-└── README.md
-
-
 ## ⚙️ Como Rodar o Projeto
 
 ### Pré-requisitos
