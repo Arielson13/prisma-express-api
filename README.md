@@ -48,19 +48,14 @@ Este projeto tem como objetivo fornecer uma base sólida para desenvolvimento de
 - npm run dev / yarn dev
 
 ## 📚 Endpoints (Exemplos)
-### 🛒 Produtos
-- GET /products — Lista todos os produtos
+### 🛒 Usuários
+- GET / — Lista todos os produtos
 
-- POST /products — Cria um novo produto
+- POST / — Cria um novo produto
 
-- PUT /products/:id — Atualiza um produto existente
+- PUT /:id — Atualiza um produto existente
 
-- DELETE /products/:id — Remove um produto
-
-## 💰 Vendas
-- GET /sales — Lista todas as vendas
-
-- POST /sales — Registra uma nova venda
+- DELETE /users/:id — Remove um produto
 
 ## 📌 Notas
 - 🔒 A autenticação com JWT será adicionada em breve.
