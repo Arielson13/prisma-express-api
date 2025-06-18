@@ -4,9 +4,7 @@ Uma API RESTful simples desenvolvida com **Node.js**, **Express** e **Prisma ORM
 
 ## ✨ Funcionalidades
 
-- CRUD de produtos
-- CRUD de vendas
-- Integração com banco de dados PostgreSQL via Prisma ORM
+- CRUD de Usuários
 - Middleware de autenticação com JWT (em breve)
 - Código estruturado e organizado com rotas modulares
 
