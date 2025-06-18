@@ -31,8 +31,8 @@ Uma API RESTful simples desenvolvida com **Node.js**, **Express** e **Prisma ORM
 1. **Clone o repositório**
 
 - bash
-  git clone https://github.com/Arielson13/prisma-express-api.git
-  cd prisma-express-api
+    git clone https://github.com/Arielson13/prisma-express-api.git
+    cd prisma-express-api
 
 2. **Instale as dependências**
   npm install
