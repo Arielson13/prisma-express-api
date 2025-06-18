@@ -49,13 +49,13 @@ Este projeto tem como objetivo fornecer uma base sólida para desenvolvimento de
 
 ## 📚 Endpoints (Exemplos)
 ### 🛒 Usuários
-- GET / — Lista todos os produtos
-
 - POST / — Cria um novo produto
 
-- PUT /:id — Atualiza um produto existente
+- GET / — Lista todos os produtos
 
-- DELETE /users/:id — Remove um produto
+- GET /:id — Atualiza um produto existente
+
+- DELETE /:id — Remove um produto
 
 ## 📌 Notas
 - 🔒 A autenticação com JWT será adicionada em breve.
