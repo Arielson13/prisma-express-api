@@ -19,8 +19,6 @@ Este projeto tem como objetivo fornecer uma base sólida para desenvolvimento de
 - **JWT** — Autenticação segura via tokens *(em breve)*  
 - **bcryptjs** — Criptografia de senhas *(em breve)*  
 
----
-
 # ⚙️ Como Rodar o Projeto
 
 ## ✅ Pré-requisitos
