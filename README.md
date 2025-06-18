@@ -3,15 +3,11 @@
 Uma API RESTful simples desenvolvida com **Node.js**, **Express** e **Prisma ORM**.  
 Este projeto tem como objetivo fornecer uma base sólida para desenvolvimento de backends modernos com banco de dados relacional utilizando **PostgreSQL**.
 
----
-
 # ✨ Funcionalidades
 
 - ✅ CRUD de Usuários  
 - 🔐 Middleware de autenticação com JWT *(em breve)*  
 - 🧩 Código estruturado e organizado com rotas modulares  
-
----
 
 # 🚀 Tecnologias Utilizadas
 
